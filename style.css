@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+/* Common style */
+
+.common-btn {
+  border-radius: 10px;
+  background: rgb(78, 71, 255);
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 12px 36px;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-family: "Inter", sans-serif;
+  color: rgb(78, 71, 255);
+  font-weight: 900;
+}
+/* ===== */
+
+.bg-image {
+  background: url("./assets/hero-bg.png") no-repeat;
+  min-height: 100vh;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+header .logo {
+  font-size: 34px;
+}
+
+.hero {
+  min-height: calc(100vh - 100px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.hero h2 {
+  color: rgb(37, 36, 50);
+  font-size: 65px;
+  font-weight: 700;
+  margin-bottom: 37px;
+}
+
+/* Action section */
+.action {
+  display: flex;
+  justify-content: space-between;
+  padding: 116px 0;
+  align-items: center;
+  gap: 23px;
+}
+.action-content h3 {
+  color: rgb(37, 36, 50);
+  font-family: Raleway;
+  font-size: 42px;
+  font-weight: 700;
+}
+.action-content p {
+  padding: 23px 0;
+  color: rgba(37, 36, 50, 0.5);
+  font-size: 24px;
+  font-weight: 400;
+}
+.action-img {
+  border-radius: 48px;
+}
+
+/* Productive Users */
+.productive-users {
+  border-radius: 24px;
+  background: rgba(78, 71, 255, 0.1);
+  padding: 50px 80px;
+  text-align: center;
+  margin: 116px 0;
+}
+.productive-users h3 {
+  color: rgb(37, 36, 50);
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.productive-users-content {
+  display: flex;
+  justify-content: space-between;
+}
+.productive-users-content h1 {
+  color: rgb(78, 71, 255);
+  font-family: "Inter", sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+}
+.productive-users-content p {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+/* Focus section */
+.focus {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  padding: 71px 0px;
+}
+.focus h3 {
+  font-size: 50px;
+  font-weight: 700;
+}
+.focus p {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.focus img {
+  border-radius: 48px;
+}
+
+/* Footer */
+footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 104px 0;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+
+footer .logo {
+  font-size: 100px;
+}
+
+footer p {
+  color: rgb(137, 135, 161);
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 48px;
+}
+footer ul li a {
+  text-decoration: none;
+  color: rgb(137, 135, 161);
+}
