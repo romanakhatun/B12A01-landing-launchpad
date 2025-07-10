@@ -37,6 +37,7 @@ body {
 .bg-image {
   background: url("./assets/hero-bg.png") no-repeat;
   min-height: 100vh;
+  max-width: 100%;
 }
 
 /* Header */
