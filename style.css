@@ -19,6 +19,7 @@ body {
   border: none;
   color: rgb(255, 255, 255);
   padding: 12px 36px;
+  cursor: pointer;
 }
 
 .container {
@@ -140,6 +141,61 @@ header .logo {
 }
 .focus img {
   border-radius: 48px;
+}
+
+/* Contact */
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 163px;
+  margin-bottom: 71px;
+}
+
+.contact h2 {
+  font-size: 97px;
+  font-weight: 700;
+  flex: 1;
+}
+
+form {
+  flex: 1;
+}
+form label {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+form input,
+.message {
+  border: 1px solid rgb(214, 221, 237);
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  padding: 20px 32px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+form input:focus,
+.message:focus {
+  outline: none;
+}
+form input::placeholder,
+.message::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.submit-btn {
+  background: rgb(78, 71, 255);
+  outline: none;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
 }
 
 /* Footer */
