@@ -21,6 +21,11 @@ body {
   padding: 12px 36px;
   cursor: pointer;
 }
+.common-btn:hover {
+  background: #f3b304;
+  transition: all 0.4s ease;
+  color: black;
+}
 
 .container {
   max-width: 1120px;
@@ -261,6 +266,11 @@ form input::placeholder,
   font-weight: 700;
   cursor: pointer;
 }
+.submit-btn:hover {
+  background: #f3b304;
+  transition: all 0.4s ease;
+  color: black;
+}
 
 /* Footer */
 footer {
@@ -284,6 +294,7 @@ footer p {
 footer ul {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   list-style: none;
   gap: 48px;
 }
