@@ -10,20 +10,23 @@
     <div class="bg-image">
       <div class="container">
         <header>
-          <h1 class="logo">LOGO</h1>
-          <button class="common-btn">Sign Up</button>
+          <a href="#" class="logo">LOGO</a>
+          <nav class="header-nav">
+            <ul>
+              <li><a href="#" class="common-btn">Sign Up</a></li>
+            </ul>
+          </nav>
         </header>
       </div>
-
       <section class="hero">
         <div class="container">
           <h2>Cool Dark UI Template for Webflow Agencies!</h2>
-          <button class="common-btn">Stay Focused</button>
+          <button type="button" class="common-btn">Stay Focused</button>
         </div>
       </section>
     </div>
 
-    <div class="container">
+    <main class="container">
       <section class="action">
         <div class="action-content">
           <h3>See It in Action</h3>
@@ -31,7 +34,7 @@
             Explore the live preview and imagine your <br />
             brand in this bold new look.
           </p>
-          <button class="common-btn">Launch Live Preview</button>
+          <button type="button" class="common-btn">Launch Live Preview</button>
         </div>
         <img class="action-img" src="./assets/wc-mini.png" alt="Action Image" />
       </section>
@@ -49,7 +52,7 @@
           </div>
           <div>
             <h1>95%</h1>
-            <p>Satisfation Rate</p>
+            <p>Satisfaction Rate</p>
           </div>
         </div>
       </section>
@@ -69,8 +72,8 @@
             <p>
               This template instantly leveled up our presence.” – Studio Vertex
             </p>
-            <div class="avater-block">
-              <img src="./assets/avatar.png" alt="" />
+            <div class="avatar-block">
+              <img src="./assets/avatar.png" alt="Reviewer" />
               <div>
                 <h4>Reviewer name</h4>
                 <p>Date</p>
@@ -89,8 +92,8 @@
             <p>
               This template instantly leveled up our presence.” – Studio Vertex
             </p>
-            <div class="avater-block">
-              <img src="./assets/avatar.png" alt="" />
+            <div class="avatar-block">
+              <img src="./assets/avatar.png" alt="Reviewer" />
               <div>
                 <h4>Reviewer name</h4>
                 <p>Date</p>
@@ -109,8 +112,8 @@
             <p>
               This template instantly leveled up our presence.” – Studio Vertex
             </p>
-            <div class="avater-block">
-              <img src="./assets/avatar.png" alt="" />
+            <div class="avatar-block">
+              <img src="./assets/avatar.png" alt="Reviewer" />
               <div>
                 <h4>Reviewer name</h4>
                 <p>Date</p>
@@ -123,58 +126,68 @@
       <section class="focus">
         <h3>Ready to focus better</h3>
         <p>This template instantly leveled up our presence.” – Studio Vertex</p>
-        <button class="common-btn">Ger Started Free</button><br />
-        <img src="./assets/wc-big.png" alt="wc-big" />
+        <button type="button" class="common-btn">Get Started Free</button><br />
+        <img src="./assets/wc-big.png" alt="Webflow Conf" />
       </section>
 
       <section class="contact">
         <h2>Let’s Get in Touch</h2>
-
-        <form action="">
+        <form action="#">
           <div>
             <label for="email">Email</label> <br />
             <input
               type="email"
               placeholder="example@email.com"
-              name=""
+              name="email"
               id="email"
+              required
             />
           </div>
 
           <div>
             <label for="name">Name</label> <br />
-            <input type="text" placeholder="full name" name="" id="name" />
+            <input
+              type="text"
+              placeholder="full name"
+              name="name"
+              id="name"
+              required
+            />
           </div>
 
           <div>
             <label for="message">Message</label> <br />
             <textarea
-              name=""
+              name="message"
+              id="message"
               placeholder="write your message...."
               cols="30"
               rows="10"
               class="message"
+              required
             ></textarea>
           </div>
           <input class="submit-btn" type="submit" value="Get in Touch" />
         </form>
       </section>
-    </div>
+    </main>
 
     <footer>
       <div class="container">
-        <h1 class="logo">LOGO</h1>
+        <a href="#" class="logo">LOGO</a>
         <p>
           Ready to elevate your online presence? Contact us today to discuss
           <br />
           your project and discover how we can bring your vision to life.
         </p>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">How it Works</a></li>
-          <li><a href="#">Services</a></li>
-        </ul>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">How it Works</a></li>
+            <li><a href="#">Services</a></li>
+          </ul>
+        </nav>
       </div>
     </footer>
   </body>

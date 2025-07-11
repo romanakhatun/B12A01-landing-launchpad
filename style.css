@@ -10,6 +10,9 @@ body {
 }
 
 /* Common style */
+a {
+  text-decoration: none;
+}
 
 .common-btn {
   border-radius: 10px;
@@ -30,7 +33,7 @@ body {
 .container {
   max-width: 1120px;
   margin: 0 auto;
-  padding: 0 clamp(10px, 4vw, 40px);
+  padding: 0 20px;
 }
 
 .logo {
@@ -55,6 +58,9 @@ header {
 
 header .logo {
   font-size: 34px;
+}
+.header-nav ul {
+  list-style: none;
 }
 
 .hero {
@@ -135,21 +141,21 @@ header .logo {
   font-weight: 400;
 }
 
-.avater-block {
+.avatar-block {
   display: flex;
   margin-top: 20px;
   gap: 10px;
 }
-.avater-block img {
+.avatar-block img {
   border-radius: 50%;
 }
-.avater-block h4 {
+.avatar-block h4 {
   color: rgb(117, 117, 117);
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 600;
 }
-.avater-block p {
+.avatar-block p {
   color: rgb(179, 179, 179);
   font-family: "Inter", sans-serif;
   font-size: 16px;
@@ -299,7 +305,6 @@ footer ul {
   gap: 48px;
 }
 footer ul li a {
-  text-decoration: none;
   color: rgb(137, 135, 161);
 }
 
@@ -311,12 +316,12 @@ footer ul li a {
   .productive-users-content,
   .reviews,
   .contact,
-  .avater-block {
+  .avatar-block {
     flex-direction: column;
     text-align: center;
     align-items: center;
   }
-  .avater-block img {
+  .avatar-block img {
     width: 50px;
     height: 50px;
   }
