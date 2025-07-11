@@ -313,6 +313,10 @@ footer ul li a {
     font-size: 48px;
     margin-bottom: 20px;
   }
+  .contact form {
+    width: 100%;
+    text-align: left;
+  }
 }
 
 @media (max-width: 480px) {
