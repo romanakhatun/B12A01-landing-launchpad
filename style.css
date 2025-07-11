@@ -23,8 +23,9 @@ body {
 }
 
 .container {
-  max-width: 1140px;
+  max-width: 1120px;
   margin: 0 auto;
+  padding: 0 clamp(10px, 4vw, 40px);
 }
 
 .logo {
@@ -35,9 +36,9 @@ body {
 /* ===== */
 
 .bg-image {
-  background: url("./assets/hero-bg.png") no-repeat;
+  background: url("./assets/hero-bg.png") no-repeat center center / cover;
   min-height: 100vh;
-  max-width: 100%;
+  width: 100%;
 }
 
 /* Header */
@@ -201,6 +202,7 @@ header .logo {
 }
 .focus img {
   border-radius: 48px;
+  width: 100%;
 }
 
 /* Contact */
@@ -211,6 +213,7 @@ header .logo {
   align-items: center;
   margin-top: 163px;
   margin-bottom: 71px;
+  gap: 50px;
 }
 
 .contact h2 {
@@ -222,6 +225,7 @@ header .logo {
 form {
   flex: 1;
 }
+
 form label {
   font-family: "Inter", sans-serif;
   font-size: 18px;
@@ -286,4 +290,33 @@ footer ul {
 footer ul li a {
   text-decoration: none;
   color: rgb(137, 135, 161);
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
+  .action,
+  .productive-users-content,
+  .reviews,
+  .contact,
+  .avater-block {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .avater-block img {
+    width: 50px;
+    height: 50px;
+  }
+  .contact h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 10px;
+  }
 }
